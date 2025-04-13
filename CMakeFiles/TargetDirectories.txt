@@ -1,0 +1,3 @@
+C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/pymath.dir
+C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,1126 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 15:07:16.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.01
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 15:07:17.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.00
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-stbapw"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-stbapw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-stbapw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4cb4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 15:07:18.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\cmTC_c4cb4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_c4cb4.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\".
+          Создание каталога "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4cb4.dir\\Debug\\\\" /Fd"cmTC_c4cb4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4cb4.dir\\Debug\\\\" /Fd"cmTC_c4cb4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\cmTC_c4cb4.exe" /INCREMENTAL /ILK:"cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-stbapw/Debug/cmTC_c4cb4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-stbapw/Debug/cmTC_c4cb4.lib" /MACHINE:X64  /machine:x64 cmTC_c4cb4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c4cb4.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\cmTC_c4cb4.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\cmTC_c4cb4.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\cmTC_c4cb4.write.1u.tlog" "cmTC_c4cb4.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\cmTC_c4cb4.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\cmTC_c4cb4.write.1u.tlog" "cmTC_c4cb4.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\Debug\\cmTC_c4cb4.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\cmTC_c4cb4.write.1u.tlog" "cmTC_c4cb4.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_c4cb4.dir\\Debug\\cmTC_c4cb4.tlog\\cmTC_c4cb4.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-stbapw\\cmTC_c4cb4.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.00
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-hv09ii"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-hv09ii"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-hv09ii'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3be96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 15:07:20.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\cmTC_3be96.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3be96.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\".
+          Создание каталога "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3be96.dir\\Debug\\\\" /Fd"cmTC_3be96.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3be96.dir\\Debug\\\\" /Fd"cmTC_3be96.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\cmTC_3be96.exe" /INCREMENTAL /ILK:"cmTC_3be96.dir\\Debug\\cmTC_3be96.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-hv09ii/Debug/cmTC_3be96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-hv09ii/Debug/cmTC_3be96.lib" /MACHINE:X64  /machine:x64 cmTC_3be96.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3be96.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\cmTC_3be96.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\cmTC_3be96.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\cmTC_3be96.write.1u.tlog" "cmTC_3be96.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\cmTC_3be96.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\cmTC_3be96.write.1u.tlog" "cmTC_3be96.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\Debug\\cmTC_3be96.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\cmTC_3be96.write.1u.tlog" "cmTC_3be96.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3be96.dir\\Debug\\cmTC_3be96.tlog\\cmTC_3be96.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-hv09ii\\cmTC_3be96.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.01
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-18gl9q"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-18gl9q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-18gl9q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa35f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 15:07:22.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\cmTC_fa35f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_fa35f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\".
+          Создание каталога "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_fa35f.dir\\Debug\\\\" /Fd"cmTC_fa35f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_fa35f.dir\\Debug\\\\" /Fd"cmTC_fa35f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\cmTC_fa35f.exe" /INCREMENTAL /ILK:"cmTC_fa35f.dir\\Debug\\cmTC_fa35f.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-18gl9q/Debug/cmTC_fa35f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-18gl9q/Debug/cmTC_fa35f.lib" /MACHINE:X64  /machine:x64 cmTC_fa35f.dir\\Debug\\src.obj
+        LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG" [C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\cmTC_fa35f.vcxproj]
+          Создание кода
+          Создание кода завершено
+          cmTC_fa35f.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\cmTC_fa35f.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\cmTC_fa35f.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\cmTC_fa35f.write.1u.tlog" "cmTC_fa35f.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\cmTC_fa35f.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\cmTC_fa35f.write.1u.tlog" "cmTC_fa35f.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\Debug\\cmTC_fa35f.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\cmTC_fa35f.write.1u.tlog" "cmTC_fa35f.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_fa35f.dir\\Debug\\cmTC_fa35f.tlog\\cmTC_fa35f.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\cmTC_fa35f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\cmTC_fa35f.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG" [C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-18gl9q\\cmTC_fa35f.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.04
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 16:18:16.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.93
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 16:18:17.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.97
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-98qt3o"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-98qt3o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-98qt3o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe0d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 16:18:18.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\cmTC_fe0d2.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_fe0d2.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\".
+          Создание каталога "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe0d2.dir\\Debug\\\\" /Fd"cmTC_fe0d2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe0d2.dir\\Debug\\\\" /Fd"cmTC_fe0d2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\cmTC_fe0d2.exe" /INCREMENTAL /ILK:"cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-98qt3o/Debug/cmTC_fe0d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-98qt3o/Debug/cmTC_fe0d2.lib" /MACHINE:X64  /machine:x64 cmTC_fe0d2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fe0d2.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\cmTC_fe0d2.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\cmTC_fe0d2.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\cmTC_fe0d2.write.1u.tlog" "cmTC_fe0d2.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\cmTC_fe0d2.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\cmTC_fe0d2.write.1u.tlog" "cmTC_fe0d2.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\Debug\\cmTC_fe0d2.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\cmTC_fe0d2.write.1u.tlog" "cmTC_fe0d2.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_fe0d2.dir\\Debug\\cmTC_fe0d2.tlog\\cmTC_fe0d2.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-98qt3o\\cmTC_fe0d2.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-ho5d38"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-ho5d38"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-ho5d38'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7c69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 16:18:19.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\cmTC_a7c69.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a7c69.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\".
+          Создание каталога "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a7c69.dir\\Debug\\\\" /Fd"cmTC_a7c69.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a7c69.dir\\Debug\\\\" /Fd"cmTC_a7c69.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\cmTC_a7c69.exe" /INCREMENTAL /ILK:"cmTC_a7c69.dir\\Debug\\cmTC_a7c69.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-ho5d38/Debug/cmTC_a7c69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-ho5d38/Debug/cmTC_a7c69.lib" /MACHINE:X64  /machine:x64 cmTC_a7c69.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a7c69.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\cmTC_a7c69.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\cmTC_a7c69.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\cmTC_a7c69.write.1u.tlog" "cmTC_a7c69.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\cmTC_a7c69.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\cmTC_a7c69.write.1u.tlog" "cmTC_a7c69.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\Debug\\cmTC_a7c69.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\cmTC_a7c69.write.1u.tlog" "cmTC_a7c69.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a7c69.dir\\Debug\\cmTC_a7c69.tlog\\cmTC_a7c69.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-ho5d38\\cmTC_a7c69.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
+      - ".venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-datfqt"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-datfqt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-datfqt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eb8cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 16:18:22.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\cmTC_eb8cb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_eb8cb.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\".
+          Создание каталога "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_eb8cb.dir\\Debug\\\\" /Fd"cmTC_eb8cb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_eb8cb.dir\\Debug\\\\" /Fd"cmTC_eb8cb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\cmTC_eb8cb.exe" /INCREMENTAL /ILK:"cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-datfqt/Debug/cmTC_eb8cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-datfqt/Debug/cmTC_eb8cb.lib" /MACHINE:X64  /machine:x64 cmTC_eb8cb.dir\\Debug\\src.obj
+        LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG" [C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\cmTC_eb8cb.vcxproj]
+          Создание кода
+          Создание кода завершено
+          cmTC_eb8cb.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\cmTC_eb8cb.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\cmTC_eb8cb.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\cmTC_eb8cb.write.1u.tlog" "cmTC_eb8cb.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\cmTC_eb8cb.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\cmTC_eb8cb.write.1u.tlog" "cmTC_eb8cb.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\Debug\\cmTC_eb8cb.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\cmTC_eb8cb.write.1u.tlog" "cmTC_eb8cb.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_eb8cb.dir\\Debug\\cmTC_eb8cb.tlog\\cmTC_eb8cb.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\cmTC_eb8cb.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\cmTC_eb8cb.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG" [C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-datfqt\\cmTC_eb8cb.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.05
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 16:34:21.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.03
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+      Сборка начата 12.04.2025 16:34:22.
+      
+      Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/4.0.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-1epm01"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-1epm01"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-1epm01'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_39e66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 16:34:24.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\cmTC_39e66.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_39e66.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\".
+          Создание каталога "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39e66.dir\\Debug\\\\" /Fd"cmTC_39e66.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\.venv\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39e66.dir\\Debug\\\\" /Fd"cmTC_39e66.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\.venv\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\cmTC_39e66.exe" /INCREMENTAL /ILK:"cmTC_39e66.dir\\Debug\\cmTC_39e66.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-1epm01/Debug/cmTC_39e66.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-1epm01/Debug/cmTC_39e66.lib" /MACHINE:X64  /machine:x64 cmTC_39e66.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_39e66.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\cmTC_39e66.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\cmTC_39e66.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\cmTC_39e66.write.1u.tlog" "cmTC_39e66.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\cmTC_39e66.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\cmTC_39e66.write.1u.tlog" "cmTC_39e66.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\Debug\\cmTC_39e66.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\cmTC_39e66.write.1u.tlog" "cmTC_39e66.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_39e66.dir\\Debug\\cmTC_39e66.tlog\\cmTC_39e66.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-1epm01\\cmTC_39e66.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.02
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-w5z1da"
+      binary: "C:/Users/\u0412\u0438\u043a\u0442\u043e\u0440/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-w5z1da"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-w5z1da'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_23609.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.8+b34f75857 для .NET Framework
+        Сборка начата 12.04.2025 16:34:25.
+        
+        Проект "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\cmTC_23609.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_23609.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\".
+          Создание каталога "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_23609.dir\\Debug\\\\" /Fd"cmTC_23609.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\.venv\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33523 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_23609.dir\\Debug\\\\" /Fd"cmTC_23609.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\.venv\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\cmTC_23609.exe" /INCREMENTAL /ILK:"cmTC_23609.dir\\Debug\\cmTC_23609.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-w5z1da/Debug/cmTC_23609.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Виктор/PycharmProjects/pymath-v2/CMakeFiles/CMakeScratch/TryCompile-w5z1da/Debug/cmTC_23609.lib" /MACHINE:X64  /machine:x64 cmTC_23609.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_23609.vcxproj -> C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\cmTC_23609.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\cmTC_23609.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\cmTC_23609.write.1u.tlog" "cmTC_23609.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\cmTC_23609.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\cmTC_23609.write.1u.tlog" "cmTC_23609.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\Debug\\cmTC_23609.exe" "C:\\Users\\Виктор\\PycharmProjects\\Omnifusion\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\cmTC_23609.write.1u.tlog" "cmTC_23609.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_23609.dir\\Debug\\cmTC_23609.tlog\\cmTC_23609.lastbuildstate".
+        Сборка проекта "C:\\Users\\Виктор\\PycharmProjects\\pymath-v2\\CMakeFiles\\CMakeScratch\\TryCompile-w5z1da\\cmTC_23609.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.04
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - ".venv/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
