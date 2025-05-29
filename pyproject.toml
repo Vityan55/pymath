@@ -3,8 +3,8 @@ requires = ["scikit-build-core", "pybind11", "setuptools"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "pymath_by_v55"
-version = "0.1.1"
+name = "v55pymath"
+version = "0.1.0"
 description = "Math tools including C++ acceleration"
 authors = [{name = "Victor Fazyatdenov", email = "soyuznikbu@gmail.com"}]
 dependencies = []
