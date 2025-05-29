@@ -55,6 +55,8 @@ PYBIND11_MODULE(pymath, m) {
     m.def("taylor_exp", &math_utils::taylor_exp, "Exponential via Taylor series",
         py::arg("x"), py::arg("terms") = 20);
 
+    m.def("identity_matrix", &matrix::identity_matrix, py::arg("n"));
+    m.def("matrix_minor", &matrix::matrix_minor, py::arg("matrix"), py::arg("row"), py::arg("col"));
     m.def("determinant", &matrix::determinant, 
         "Compute determinant of a complex matrix",
         py::arg("matrix"));

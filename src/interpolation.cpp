@@ -3,6 +3,7 @@
 namespace interpolation {
 
 double lagrange_interpolation(const std::vector<double>& x_vals, const std::vector<double>& y_vals, double x) {
+
     double result = 0.0;
     size_t n = x_vals.size();
     for (size_t i = 0; i < n; ++i) {

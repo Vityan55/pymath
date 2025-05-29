@@ -29,6 +29,10 @@ namespace matrix {
     }
 
     Matrix matrix_minor(const Matrix& matrix, size_t row, size_t col) {
+        if (matrix.empty() || row >= matrix.size() || col >= matrix[0].size()) {
+            throw std::out_of_range("Invalid row or column index");
+        }
+
         Matrix minor;
         for (size_t i = 0; i < matrix.size(); ++i) {
             if (i == row) continue;
@@ -79,20 +83,39 @@ namespace matrix {
         return result;
     }
 
+    // Computes the matrix exponential using the Taylor series expansion
+    // Parameters:
+    //   matrix - Input square matrix
+    //   iterations - Number of Taylor series terms to compute
+    // Returns: Matrix exponential exp(matrix)
     Matrix exponential(const Matrix& matrix, int iterations) {
-        check_square(matrix);
         size_t n = matrix.size();
+        
+        // Initialize result as the identity matrix
         Matrix result = identity_matrix(n);
+        
+        // Start with the identity matrix as the first term
         Matrix current_term = result;
         
+        // Initialize factorial for k=0
+        double factorial = 1.0;
+        
+        // Compute Taylor series: exp(A) = I + A + A^2/2! + A^3/3! + ...
         for (int k = 1; k <= iterations; ++k) {
+            // Update current term: current_term = current_term * A
             current_term = multiply(current_term, matrix);
+            
+            // Update factorial: k! = k * (k-1)!
+            factorial *= static_cast<double>(k);
+            
+            // Add current_term / k! to the result
             for (size_t i = 0; i < n; ++i) {
                 for (size_t j = 0; j < n; ++j) {
-                    result[i][j] += current_term[i][j] / static_cast<double>(k);
+                    result[i][j] += current_term[i][j] / factorial;
                 }
             }
         }
+        
         return result;
     }
 

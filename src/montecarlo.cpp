@@ -4,6 +4,13 @@
 namespace montecarlo {
 
     double monte_carlo_integral(std::function<double(double)> f, double a, double b, int n) {
+        if (n <= 0) {
+            throw std::invalid_argument("Number of points n must be positive");
+        }
+        if (a >= b) {
+            throw std::invalid_argument("Invalid interval: a must be less than b");
+        }
+
         double total = 0;
         unsigned seed = 1; 
         for (int i = 0; i < n; ++i) {

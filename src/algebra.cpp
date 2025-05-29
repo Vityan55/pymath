@@ -3,6 +3,10 @@
 
 namespace algebra {
     std::vector<double> solve_slae(const std::vector<std::vector<double>>& A, const std::vector<double>& b) {
+        if (A.empty() || b.size() != A.size()) {
+            throw std::invalid_argument("Dimension mismatch: b must have the same size as A rows");
+        }
+
         size_t n = A.size();
         std::vector<std::vector<double>> matrix = A;
         std::vector<double> result = b;
@@ -15,7 +19,7 @@ namespace algebra {
                 }
             }
 
-            if (std::abs(matrix[max_row][i]) < 1e-10) {
+            if (std::abs(matrix[max_row][i]) < 1e-20) {
                 throw std::invalid_argument("Singular matrix detected");
             }
 

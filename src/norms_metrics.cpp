@@ -20,9 +20,9 @@ namespace norms_metrics {
     }
 
     double vector_linf_norm(const std::vector<double>& v) {
-        return *std::max_element(v.begin(), v.end(), [](double a, double b) {
-            return std::abs(a) < std::abs(b);
-        });
+        auto max_it = std::max_element(v.begin(), v.end(),
+            [](double a, double b) { return std::abs(a) < std::abs(b); });
+        return std::abs(*max_it);
     }
 
     double matrix_frobenius_norm(const std::vector<std::vector<double>>& matrix) {
@@ -36,12 +36,14 @@ namespace norms_metrics {
     }
 
     double matrix_l1_norm(const std::vector<std::vector<double>>& matrix) {
-        double max_sum = 0;
-        size_t n_cols = matrix[0].size();
-        for (size_t i = 0; i < n_cols; ++i) {
-            double col_sum = 0;
-            for (const auto& row : matrix) {
-                col_sum += std::abs(row[i]);
+        size_t rows = matrix.size();
+        size_t cols = matrix[0].size();
+
+        double max_sum = 0.0;
+        for (size_t j = 0; j < cols; ++j) {
+            double col_sum = 0.0;
+            for (size_t i = 0; i < rows; ++i) {
+                col_sum += std::abs(matrix[i][j]);
             }
             max_sum = std::max(max_sum, col_sum);
         }
