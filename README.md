@@ -13,4 +13,4 @@
 pip install pymath_by_v55
 
 ## Package Link
-https://pypi.org/project/pymath-by-v55/0.1.0/
+https://pypi.org/project/pymath-by-v55/0.1.1/
