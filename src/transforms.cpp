@@ -5,6 +5,15 @@
 
 namespace transforms {
 
+    /**
+     * @brief Computes the Discrete Fourier Transform (DFT) of a complex signal.
+     * 
+     * Uses the direct summation formula for DFT:
+     *   X(k) = sum_{n=0}^{N-1} x(n) * exp(-2πikn/N)
+     * 
+     * @param signal Input vector of complex numbers representing the signal in time domain.
+     * @return Vector of complex numbers representing the frequency spectrum.
+     */
     std::vector<std::complex<double>> dft(const std::vector<std::complex<double>>& signal) {
         size_t N = signal.size();
         std::vector<std::complex<double>> transform(N);
@@ -25,6 +34,17 @@ namespace transforms {
         return transform;
     }
 
+    /**
+     * @brief Computes the Inverse Discrete Fourier Transform (IDFT) of a complex spectrum.
+     * 
+     * Uses the inverse summation formula for IDFT:
+     *   x(n) = (1/N) * sum_{k=0}^{N-1} X(k) * exp(2πikn/N)
+     * 
+     * Note: Returns only the real part of the reconstructed signal.
+     * 
+     * @param transform Input vector of complex numbers representing the frequency spectrum.
+     * @return Vector of doubles representing the reconstructed time-domain signal.
+     */
     std::vector<double> idft(const std::vector<std::complex<double>>& transform) {
         size_t N = transform.size();
         std::vector<double> signal(N);
@@ -45,6 +65,16 @@ namespace transforms {
         return signal;
     }
 
+    /**
+     * @brief Computes the Fast Fourier Transform (FFT) of a complex signal.
+     * 
+     * Implements the Cooley-Tukey radix-2 decimation-in-time FFT algorithm.
+     * Signal length must be a power of two.
+     * 
+     * @param signal Input vector of complex numbers representing the signal in time domain.
+     * @return Vector of complex numbers representing the frequency spectrum.
+     * @throws std::invalid_argument if signal size is not a power of two.
+     */
     std::vector<std::complex<double>> fft(const std::vector<std::complex<double>>& signal) {
         size_t N = signal.size();
 
@@ -81,6 +111,23 @@ namespace transforms {
         return result;
     }
 
+    /**
+     * @brief Numerically computes the Laplace transform of a function f(t).
+     * 
+     * The Laplace transform is defined as:
+     *   L{f}(s) = ∫_0^∞ f(t) * exp(-s * t) dt,
+     * where s = s_real + i * s_imag.
+     * 
+     * This implementation performs numerical integration using the rectangle method
+     * over the interval [0, t_max] with step size dt.
+     * 
+     * @param f Pointer to a function of a single double argument representing f(t).
+     * @param s_real Real part of complex parameter s.
+     * @param s_imag Imaginary part of complex parameter s.
+     * @param t_max Upper limit of integration (integration from 0 to t_max).
+     * @param dt Integration step size.
+     * @return Pair of doubles representing the real and imaginary parts of L{f}(s).
+     */
     std::pair<double, double> laplace_transform(double (*f)(double), double s_real, double s_imag, double t_max, double dt) {
         double integral_real = 0.0;
         double integral_imag = 0.0;

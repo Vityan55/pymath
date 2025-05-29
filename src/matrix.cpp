@@ -4,12 +4,23 @@
 
 namespace matrix {
 
+    /**
+     * @brief Check if a matrix is square.
+     * @param matrix Input matrix to check.
+     * @throw std::invalid_argument if the matrix is not square or is empty.
+     */
     void check_square(const Matrix& matrix) {
         if (matrix.empty() || matrix.size() != matrix[0].size()) {
             throw std::invalid_argument("Matrix must be square");
         }
     }
 
+    /**
+     * @brief Multiply a matrix by a scalar.
+     * @param matrix Input matrix.
+     * @param scalar Complex scalar multiplier.
+     * @return New matrix resulting from scalar multiplication.
+     */
     Matrix multiply_scalar(const Matrix& matrix, const Complex& scalar) {
         Matrix result = matrix;
         for (auto& row : result) {
@@ -20,6 +31,11 @@ namespace matrix {
         return result;
     }
 
+    /**
+     * @brief Create an identity matrix of size n x n.
+     * @param n Dimension of the identity matrix.
+     * @return Identity matrix of size n x n.
+     */
     Matrix identity_matrix(size_t n) {
         Matrix I(n, std::vector<Complex>(n, 0.0));
         for (size_t i = 0; i < n; ++i) {
@@ -28,6 +44,14 @@ namespace matrix {
         return I;
     }
 
+    /**
+     * @brief Compute the minor matrix by removing specified row and column.
+     * @param matrix Input matrix.
+     * @param row Row index to remove.
+     * @param col Column index to remove.
+     * @return Minor matrix after removing the specified row and column.
+     * @throw std::out_of_range if row or col is out of bounds.
+     */
     Matrix matrix_minor(const Matrix& matrix, size_t row, size_t col) {
         if (matrix.empty() || row >= matrix.size() || col >= matrix[0].size()) {
             throw std::out_of_range("Invalid row or column index");
@@ -45,6 +69,13 @@ namespace matrix {
         return minor;
     }
 
+    /**
+     * @brief Calculate the determinant of a square matrix.
+     * Uses recursive Laplace expansion.
+     * @param matrix Input square matrix.
+     * @return Determinant as a Complex number.
+     * @throw std::invalid_argument if matrix is not square.
+     */
     Complex determinant(const Matrix& matrix) {
         check_square(matrix);
         if (matrix.size() == 1) return matrix[0][0];
@@ -57,6 +88,11 @@ namespace matrix {
         return det;
     }
 
+    /**
+     * @brief Compute the Hermitian conjugate (conjugate transpose) of a matrix.
+     * @param matrix Input matrix.
+     * @return Hermitian conjugate matrix.
+     */
     Matrix hermitian_conjugate(const Matrix& matrix) {
         Matrix result(matrix[0].size(), std::vector<Complex>(matrix.size()));
         for (size_t i = 0; i < matrix.size(); ++i) {
@@ -67,6 +103,13 @@ namespace matrix {
         return result;
     }
 
+    /**
+     * @brief Multiply two square matrices.
+     * @param A First input matrix.
+     * @param B Second input matrix.
+     * @return Result of multiplication A * B.
+     * @throw std::invalid_argument if matrices are not square or sizes mismatch.
+     */
     Matrix multiply(const Matrix& A, const Matrix& B) {
         check_square(A);
         check_square(B);
@@ -83,11 +126,13 @@ namespace matrix {
         return result;
     }
 
-    // Computes the matrix exponential using the Taylor series expansion
-    // Parameters:
-    //   matrix - Input square matrix
-    //   iterations - Number of Taylor series terms to compute
-    // Returns: Matrix exponential exp(matrix)
+    /**
+     * @brief Compute the matrix exponential using Taylor series expansion.
+     * exp(A) = I + A + A^2/2! + A^3/3! + ...
+     * @param matrix Input square matrix A.
+     * @param iterations Number of terms in the Taylor series.
+     * @return Matrix exponential exp(A).
+     */
     Matrix exponential(const Matrix& matrix, int iterations) {
         size_t n = matrix.size();
         
@@ -119,6 +164,14 @@ namespace matrix {
         return result;
     }
 
+    /**
+     * @brief Raise a square matrix to an integer power.
+     * Uses exponentiation by squaring for efficiency.
+     * @param matrix Input square matrix.
+     * @param power Integer power (can be negative).
+     * @return Matrix raised to the specified power.
+     * @throw std::invalid_argument if matrix is not square or singular for negative powers.
+     */
     Matrix power(const Matrix& matrix, int power) {
         check_square(matrix);
         if (power == 0) return identity_matrix(matrix.size());
@@ -137,6 +190,12 @@ namespace matrix {
         return (power < 0) ? inverse(result) : result;
     }
 
+    /**
+     * @brief Compute the inverse of a square matrix using the adjugate method.
+     * @param matrix Input square matrix.
+     * @return Inverse of the matrix.
+     * @throw std::invalid_argument if the matrix is singular or not square.
+     */
     Matrix inverse(const Matrix& matrix) {
         check_square(matrix);
         size_t n = matrix.size();

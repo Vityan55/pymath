@@ -1,14 +1,16 @@
 # pymath
 
-**pymath** — это кроссплатформенная математическая библиотека с C++-ядром и Python-интерфейсом через `pybind11`. Библиотека включает:
+**pymath** is a cross-platform mathematical library with a C++ core and a Python interface via `pybind11`. The library includes:
 
-- Алгебра: определители, произведения, транспонирование, экспоненты матриц
-- Анализ: экстремумы функций, численное интегрирование
-- Интерполяция: Лагранжа, Ньютона, кубические сплайны
-- Вероятностные методы: Монте-Карло интегрирование
-- Решение СЛАУ
+- Algebra: determinants, matrix products, transposition, matrix exponentials
+- Calculus: function extrema, numerical integration
+- Interpolation: Lagrange, Newton, cubic splines
+- Probabilistic methods: Monte Carlo integration
+- Solving systems of linear equations
 
-## 📦 Установка
+## 📦 Installation
 
-```bash
-pip install .
+pip install pymath_by_v55
+
+## Package Link
+https://pypi.org/project/pymath-by-v55/0.1.0/
