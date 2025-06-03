@@ -1,5 +1,7 @@
 #include "norms_metrics.hpp"
 #include "math_utils.hpp"
+#include <cmath>        // для std::abs
+#include <algorithm>    // для std::max_element
 
 namespace norms_metrics {
 

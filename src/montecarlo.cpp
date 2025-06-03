@@ -1,5 +1,7 @@
 #include "montecarlo.hpp"
 #include <random>
+#include <stdexcept>    // для std::invalid_argument
+
 
 namespace montecarlo {
 
